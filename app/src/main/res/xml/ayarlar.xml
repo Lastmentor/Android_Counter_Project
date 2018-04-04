@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:summaryOn="Vibrate Open"
+        android:summaryOff="Vibrate Close"
+        android:key="titresim"
+        android:title="Vibrate" />
+    <CheckBoxPreference
+        android:summaryOn="Sound On"
+        android:summaryOff="Sound Off"
+        android:key="ses"
+        android:title="Sound" />
+    <ListPreference
+        android:entries="@array/colors"
+        android:entryValues="@array/color_position"
+        android:key="arkaplan"
+        android:title="Background"
+        android:summary="Select Background Color"/>
+</PreferenceScreen>

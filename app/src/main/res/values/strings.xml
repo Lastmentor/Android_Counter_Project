@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Counter</string>
+
+    <color name="arkaplan">#009688</color>
+    <color name="buton_rengi">#004D40</color>
+    <color name="buton_rengi_pres">#00BFA5</color>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Dark Gri</item>
+    </string-array>
+    <string-array name="color_position">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
